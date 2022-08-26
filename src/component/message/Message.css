@@ -1,0 +1,35 @@
+.messageBox{
+    padding: 9px 18px 5px 9px;
+    padding: 9px 18px 5px 9px;
+    margin: 1vmax;
+    border-radius: 0.5vmax;
+    display: inline-block;
+    clear: both;
+    font-size: 1.2vmax;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 80%;
+    word-break: break-all;
+}
+
+.right{
+    float: right;
+    background-color: #7FB77E;
+    color: white;
+    text-align: right;
+    /* width: 50%; */
+}
+
+.left{
+    float: left;
+    text-align: left;
+    background-color: #F2D7D9;
+    /* width: 50%; */
+    
+}
+.messageBox span{
+    display: block;
+    float: right;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: 10px;
+}
